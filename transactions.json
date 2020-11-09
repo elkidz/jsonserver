@@ -1,0 +1,79 @@
+{
+  "Validations": [
+    {
+      "Mandatory": true,
+      "Name": "indice",
+      "Description": null,
+      "Type": 1,
+      "Max": null,
+      "Min": "1.0",
+      "StartTime": "0001-01-01T00:00:00",
+      "EndTime": "0001-01-01T00:00:00",
+      "DependencyValue": null,
+      "DefaultValue": null,
+      "ReadOnly": null,
+      "PossibleValues": null
+    },
+    {
+      "Mandatory": true,
+      "Name": "currentPageNumber",
+      "Description": null,
+      "Type": 1,
+      "Max": null,
+      "Min": null,
+      "StartTime": "0001-01-01T00:00:00",
+      "EndTime": "0001-01-01T00:00:00",
+      "DependencyValue": null,
+      "DefaultValue": null,
+      "ReadOnly": null,
+      "PossibleValues": null
+    }
+  ],
+  "Error": null,
+  "Messages": [
+    {
+      "Code": "0",
+      "Message": "Operação concluída com sucesso",
+      "Type": "Info",
+      "VisibleToHuman": true
+    }
+  ],
+  "MetaInfo": {
+    "ExecutionStart": "2020-11-09T10:22:57.7695285+00:00",
+    "ExecutionTime": 1453,
+    "ExtraInfo": null
+  },
+  "OperationId": null,
+  "NextSecurityToken": null,
+  "Progress": {
+    "Status": 5,
+    "ProcessId": null
+  },
+  "RefreshAccounts": false,
+  "Result": {
+    "indice": "0",
+    "descricao": "PRÉ-PAGO PART. C/ NOME GRAV.",
+    "numCartao": "xxxx-xxxx-xxxx-5505",
+    "imagem": "https://www.montepio.pt/iwov-resources/SitePublico/imagens/pt_PT/img-pmc/CPP050202.png",
+    "moeda": "EUR",
+    "dataExpiracao": "08/24",
+    "saldo": "10,00",
+    "clienteRequisitante": "NOME CLIENTE 0008826519",
+    "clienteUtilizador": "NOME CLIENTE 0008826519",
+    "entidadeMG": "21312",
+    "currentPageNumber": "1",
+    "hasMore": "false",
+    "listaMovimentos": [
+      {
+        "indice": "0",
+        "dataMovimento": "05/08/2020",
+        "dataValor": "05/08/2020",
+        "descricao": "CARREG.CART.PREPAGO",
+        "montante": "10,00",
+        "saldo": "10,00"
+      }
+    ],
+    "pesUltMov": "true"
+  },
+  "Status": "Ok"
+}
